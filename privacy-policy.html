@@ -41,6 +41,24 @@
       box-shadow: 0 16px 40px rgba(16, 42, 67, 0.08);
     }
 
+    .nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #f8fbfd;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
     h1 {
       margin: 0 0 8px;
       font-size: 2rem;
@@ -77,6 +95,11 @@
 <body>
   <main>
     <section class="card">
+      <nav class="nav" aria-label="Policy navigation">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="delete-account.html">Delete Account</a>
+      </nav>
+
       <h1>Privacy Policy</h1>
       <p class="updated">Nili News<br>Last updated: April 9, 2026</p>
 
